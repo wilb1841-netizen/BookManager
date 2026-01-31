@@ -14,5 +14,6 @@ final class Item {
     
     init(timestamp: Date) {
         self.timestamp = timestamp
+        let p = print("just for test")
     }
 }
