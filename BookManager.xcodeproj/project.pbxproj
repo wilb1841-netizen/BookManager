@@ -29,14 +29,48 @@
 		CCC7B7A32F0F41A800957E7E /* BookManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CCD054E12F2EBD5E004AA6A8 /* Exceptions for "BookManagerTests" folder in "BookManagerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PersistentBook/PersistentBook.test.swift,
+			);
+			target = CCC7B7982F0F41A800957E7E /* BookManagerTests */;
+		};
+		CCD055072F2EBF13004AA6A8 /* Exceptions for "BookManager" folder in "BookManager" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				models/Genre.swift,
+			);
+			target = CCC7B7892F0F41A500957E7E /* BookManager */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		CCD054E22F2EBD5E004AA6A8 /* Exceptions for "BookManagerTests" folder in "Copy Bundle Resources" phase from "BookManagerTests" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = CCC7B7972F0F41A800957E7E /* Resources */;
+			membershipExceptions = (
+				PersistentBook/PersistentBook.test.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CCC7B78C2F0F41A500957E7E /* BookManager */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CCD055072F2EBF13004AA6A8 /* Exceptions for "BookManager" folder in "BookManager" target */,
+			);
 			path = BookManager;
 			sourceTree = "<group>";
 		};
 		CCC7B79C2F0F41A800957E7E /* BookManagerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CCD054E12F2EBD5E004AA6A8 /* Exceptions for "BookManagerTests" folder in "BookManagerTests" target */,
+				CCD054E22F2EBD5E004AA6A8 /* Exceptions for "BookManagerTests" folder in "Copy Bundle Resources" phase from "BookManagerTests" target */,
+			);
 			path = BookManagerTests;
 			sourceTree = "<group>";
 		};
